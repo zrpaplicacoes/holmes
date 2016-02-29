@@ -1,5 +1,5 @@
 # Holmes
-Short description and motivation.
+A small ruby Gem to notify about server errors.
 
 ## Usage
 How to use my plugin.
