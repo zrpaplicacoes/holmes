@@ -23,3 +23,5 @@ config/secrets.yml
 /.bundle
 /vendor/bundle
 .powenv
+.byebug_history
+npm-debug.log
