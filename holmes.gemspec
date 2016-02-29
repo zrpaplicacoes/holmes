@@ -7,16 +7,15 @@ require "holmes/version"
 Gem::Specification.new do |s|
   s.name        = "holmes"
   s.version     = Holmes::VERSION
-  s.authors     = ["Pedro Gryzinsky"]
-  s.email       = ["pedro.gryzinsky@zrp.com.br"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Holmes."
-  s.description = "TODO: Description of Holmes."
+  s.authors     = ["Pedro Gryzinsky", "Rafael Costella" ]
+  s.email       = ["pedro.gryzinsky@zrp.com.br", "rafael.costella@zrp.com.br" ]
+  s.homepage    = "https://github.com/zrpaplicacoes/holmes"
+  s.summary     = "Summary of Holmes."
+  s.description = "A small ruby Gem to notify about server errors"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", ">= 5.0.0.beta3", "< 5.1"
+  s.add_dependency "rails", ">= 4.2.0", "< 5.1"
 
-  s.add_development_dependency "sqlite3"
 end
