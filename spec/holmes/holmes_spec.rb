@@ -10,7 +10,7 @@ describe Holmes do
       end
     end
 
-    it "returns an array with 10 elements" do
+    it "correctly set all the configurable params" do
       expect(Holmes.configuration.slack_webhook_url).to be('webhook.example.com')
       expect(Holmes.configuration.slack_channel).to be('holmes-errors')
       expect(Holmes.configuration.rescued_errors).to be({ '404': [ActionController::RoutingError]})
