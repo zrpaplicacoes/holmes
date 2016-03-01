@@ -1,0 +1,3 @@
+class HolmesController < ApplicationController
+
+end
