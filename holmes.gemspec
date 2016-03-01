@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Summary of Holmes."
   s.description = "A small ruby Gem to notify about server errors"
   s.license     = "MIT"
+  s.require_paths = ["lib"]
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
