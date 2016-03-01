@@ -2,7 +2,7 @@
 
 describe Holmes do
   describe "#configure" do
-    before do
+    before(:each) do
       Holmes.configure do |config|
         config.slack_webhook_url = 'webhook.example.com'
         config.slack_channel = 'holmes-errors'

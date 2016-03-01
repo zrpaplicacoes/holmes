@@ -12,7 +12,7 @@ module Holmes
     attr_accessor :slack_channel
 
     # Default errors to be rescued
-    # Each error follows the pattern: {<<error_code>>: [<<rescued_errors>>]}
+    # Each error follows the pattern: {'<<error_code>>': [<<rescued_errors>>]}
     attr_accessor :rescued_errors
 
     def initialize
@@ -23,4 +23,5 @@ module Holmes
                            '500': [Exception]
                          }
     end
+  end
 end
